@@ -209,6 +209,9 @@
 	 Set your background with this */
 
 		background: #348cb2 url("https://s15.postimg.org/tvzswk8tn/background.jpg") bottom left;
+		
+	  background-size: cover;
+	  width: 100%;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
@@ -279,11 +282,6 @@
 			-ms-transform: translate3d(-2250px,0,0);
 			transform: translate3d(-2250px,0,0);
 		}
-	}
-
-	#bg {
-		background-size: 2250px auto;
-		width: 6750px;
 	}
 
 /* Overlay */
@@ -785,11 +783,7 @@
 				transform: translate3d(-1500px,0,0);
 			}
 		}
-
-		#bg {
-			background-size: 1500px auto;
-			width: 4500px;
-		} }
+	}
 
 /* Normal */
 
@@ -868,10 +862,7 @@
 			}
 		}
 
-		#bg {
-			background-size: 750px auto;
-			width: 2250px;
-		} }
+}
 
 /* Mobile */
 
@@ -952,11 +943,6 @@
 				-ms-transform: translate3d(-300px,0,0);
 				transform: translate3d(-300px,0,0);
 			}
-		}
-
-		#bg {
-			background-size: 300px auto;
-			width: 900px;
 		}
 
 	/* Header */
@@ -1051,11 +1037,6 @@
 				-ms-transform: translate3d(-412.5px,0,0);
 				transform: translate3d(-412.5px,0,0);
 			}
-		}
-
-		#bg {
-			background-size: 412.5px auto;
-			width: 1237.5px;
 		}
 
 	/* Header */
