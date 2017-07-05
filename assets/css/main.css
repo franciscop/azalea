@@ -1,6 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
 
+
+#player {
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+#player.active {
+  opacity: 1;
+}
+
+
+
 /*
 	Aerial by HTML5 UP
 	html5up.net | @ajlkn

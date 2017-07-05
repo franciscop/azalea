@@ -90,6 +90,7 @@ body {background-color:#FFFFFF;}
       }
 
       function onPlayerReady() {
+          document.querySelector('#player').className += ' active';
           player.playVideo();
           player.mute();
       }
