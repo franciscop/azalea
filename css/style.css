@@ -148,6 +148,11 @@ header img {
 #navigationMenu span:hover {
 	width: 100px;
 	background-color: #1e8bb4;
+
+}
+
+#navigationMenu span:hover :before {
+	content: "Coming soon...";
 	
 }
 
