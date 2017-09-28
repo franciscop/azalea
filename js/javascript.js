@@ -5,14 +5,14 @@ $(document).ready(function() {
     		$('span#team2').text("Coming soon...");
     	});
     	
-    	$('span#team2').fadeIn(1000);
+    	$('span#team2').fadeIn(500);
     });
     $('#team').mouseleave(function() {
     	$('span#team2').fadeOut(0, function() {
     		$('span#team2').text("Team");
     	});
     	
-    	$('span#team2').fadeIn(1000);
+    	$('span#team2').fadeIn(500);
     });
 
      $('#sponsorship').mouseenter(function() {
@@ -20,13 +20,13 @@ $(document).ready(function() {
     		$('span#sponsorship2').text("Coming soon...");
     	});
     	
-    	$('span#sponsorship2').fadeIn(1000);
+    	$('span#sponsorship2').fadeIn(500);
     });
     $('#sponsorship').mouseleave(function() {
     	$('span#sponsorship2').fadeOut(0, function() {
     		$('span#sponsorship2').text("Sponsorship");
     	});
     	
-    	$('span#sponsorship2').fadeIn(1000);
+    	$('span#sponsorship2').fadeIn(500);
     });
 });
