@@ -153,10 +153,10 @@ header img {
 
 }
 
-#navigationMenu span:hover :before {
+/* #navigationMenu span:hover :before {
 	content: "Coming soon...";
 	
-}
+}*/
 
 .follow_container {
 	position: fixed;
