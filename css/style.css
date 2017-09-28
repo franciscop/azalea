@@ -201,6 +201,21 @@ header img {
 	transform:scale(1.25);
 }
 
+.aumenta {
+	-webkit-transition:all 0.9s ease;
+	-moz-transition:all 0.9s ease;
+	-o-transition:all 0.9s ease;
+	-ms-transition:all 0.9s ease;
+}
+
+.aumenta:hover {
+	-webkit-transform:scale(1.25);
+	-moz-transform:scale(1.25);
+	-ms-transform:scale(1.25);
+	-o-transform:scale(1.25);
+	transform:scale(1.25);
+}
+
 .follow {
 	font-size: 2rem;
 }
