@@ -63,6 +63,10 @@ header img {
 	height: 65px;
 }
 
+.oculta {
+	display: none;
+}
+
 .container {
 	display: flex;
 	/*position: absolute;*/
@@ -80,7 +84,6 @@ header img {
 .right_50 {
 	float: right;
 	width: 50%;
-	padding: 2%;
 	/*display: inline;*/
 }
 
@@ -243,7 +246,7 @@ header img {
 	width: 100%;
 }
 
-#white img {
+.white img {
 	width: 40%;
 	height: 10%;
 }
