@@ -80,6 +80,7 @@ header img {
 .right_50 {
 	float: right;
 	width: 50%;
+	padding: 2%;
 	/*display: inline;*/
 }
 
@@ -91,12 +92,13 @@ header img {
 
 .azaleaupv img {
 	padding: 2%;
-	width: 160px;
+	width: 266px;
 }
 
 .azaleaupv p {
-	float: right;
+	/*float: right;*/
 	text-align: justify;
+	padding: 10% 0;
 }
 
 .sdehungary {
@@ -111,8 +113,9 @@ header img {
 }
 
 .sdehungary p {
-	float: right;
+	/*float: right;*/
 	text-align: justify;
+	padding: 10% 0;
 }
 
 
