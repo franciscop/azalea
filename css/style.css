@@ -421,6 +421,29 @@ footer img {
 	padding-right: 10%;
 }
 
+/* SPONSORSHIP
+   ========================================================================= */
+.sponsor {
+	border-radius: 5%;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+    border: 0px solid #000000;
+	
+	background: #D99141;
+
+	padding: 5px;
+	width: 300px;
+	height: 180px;
+	margin: 10px;
+	  
+	  /*line-height: 150px;*/
+	  color: white;
+	  font-weight: bold;
+	  font-size: 3em;
+	  text-align: center;
+}
+
+
 /* RESPONSIVE
    ========================================================================= /
  
