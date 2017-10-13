@@ -1,6 +1,6 @@
 $(document).ready(function() {
  
-    $('#team').mouseenter(function() {
+    /*$('#team').mouseenter(function() {
     	$('span#team2').fadeOut(0, function() {
     		$('span#team2').text("Coming soon...");
     	});
@@ -28,5 +28,5 @@ $(document).ready(function() {
     	});
     	
     	$('span#sponsorship2').fadeIn(500);
-    });
+    });*/
 });
