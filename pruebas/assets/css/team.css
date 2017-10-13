@@ -1,0 +1,35 @@
+
+.teamtext{
+    text-align: center;
+    background-color: #da8a3c;
+}
+.subsistema{
+    color: #da8a3c;
+}
+.titulo{
+    margin-top: 11px;
+}
+.titulito{
+    margin-top: -38px;
+}
+.management{
+    text-align: center;
+}
+
+.teamcircle{
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: block;
+}
+.teamcircle hoveer{
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: block;
+
+}
