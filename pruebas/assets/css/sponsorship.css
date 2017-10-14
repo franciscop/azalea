@@ -12,54 +12,38 @@
     float: right;
 }
 
-.azaleawhite{
-    width: 155px;
-
+.Sponsorshiptitle{
+    background-color: #f28b32;
 }
-.textteam{
-    text-align: left;
-}
-.textteam h2{
+.Sponsorshiptitle h2{
+    text-align: center;
+    margin-bottom: -17px;
     font-size: 3em;
-    margin-bottom: 10px;
+    margin-top: -14px;
 }
-.teamtext{
+.sponsortext{
+    background-color: #555;
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 318px;
+    text-align: justify;
+}
+.sponsortext p{
+    margin-bottom: 20px;
+    font-size: 1.6em;
+}
+.sponsorlogos{
+    background-color: white;
+    position: relative;
+    float: right;
+    width: 50%;
     text-align: center;
-    background-color: #da8a3c;
-}
-.subsistema{
-    color: #da8a3c;
-}
-.titulo{
-    margin-top: 11px;
-}
-.titulito{
-    margin-top: -38px;
-}
-.management{
-    text-align: center;
 }
 
-.teamcircle{
+.type{
     width: 200px;
-    height: 200px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    display: block;
-
 }
-.teamcircle:hover{
-    width: 200px;
-    height: 200px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    display: block;
-    background-image: url("images/linkedin.png");
-
-}
-
 #footer.foot{
     background-color: #555;
 }

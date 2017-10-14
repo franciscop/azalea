@@ -43,5 +43,50 @@
     text-align: justify;
 }
 #footer.foot{
-    background-color: #444;
+    background-color: #555;
+}
+.logosfooter{
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 98px;
+    margin-bottom: 25px;
+}
+.rrssfooter{
+    margin-top: -28px;
+}
+.rrssfooter a{
+    color: white;
+    margin-left: 5px;
+}
+.sdefooter{
+    max-width: 73px;
+
+}
+.eeffooter{
+    width: 100px;
+
+}
+.gefooter{
+    width: 100px;
+
+}
+.upvgandiafooter{
+    width: 100px;
+
+}
+.upvfooter{
+    width: 100px;
+
+}
+.eco{
+    border-bottom: solid 1px rgba(255, 255, 255, 0.3);
+    width: 255px;
+    margin-left: 437px;
+}
+
+.heart{
+    margin-left: 5px;
+}
+.journey p{
+    margin-top: 22px;
 }
