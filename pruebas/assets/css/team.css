@@ -1,3 +1,17 @@
+#nav .container{
+    margin-bottom: -6px;
+}
+
+#nav .row{
+    text-align: center;
+}
+.azalealogo{
+    text-align: center;
+}
+#nav .rrss{
+    float: right;
+}
+
 
 .teamtext{
     text-align: center;

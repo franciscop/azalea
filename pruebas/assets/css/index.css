@@ -1,0 +1,47 @@
+#nav .container{
+    margin-bottom: -6px;
+}
+
+#nav .row{
+    text-align: center;
+}
+.azalealogo{
+    text-align: center;
+}
+#nav .rrss{
+    float: right;
+}
+
+#two .sde{
+    background-color: #333;
+}
+#three .team{
+    background-color: #333;
+}
+
+.sdupv_text{
+    margin-top: 15px;
+
+}
+.name{
+    float: right;
+}
+.footprint{
+    float: right;
+    text-align: right;
+}
+.sdeimage{
+    text-align: center;
+}
+.sdewhite{
+    width: 100px;
+}
+.place{
+    margin-top: -38px;
+}
+.sdetext{
+    text-align: justify;
+}
+#footer.foot{
+    background-color: #444;
+}
