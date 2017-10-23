@@ -10,9 +10,10 @@
     margin-bottom: -6px;
 }
 
-#nav .row{
+/* Fer menú més a l'esquerra */
+/*#nav .row{
     text-align: center;
-}
+}*/
 
 .azalealogo{
     text-align: center;
@@ -147,7 +148,7 @@
     margin-top: 11px;
 }
 
-.titulito{
+.ocupation {
     margin-top: -38px;
 }
 
@@ -156,6 +157,8 @@
 }
 
 .teamcircle{
+    margin-left: auto;  /* Centrar imatge */
+    margin-right: auto;
     width: 200px;
     height: 200px;
     -moz-border-radius: 50%;
@@ -172,6 +175,15 @@
     border-radius: 50%;
     display: block;
     background-image: url("images/linkedin.png");
+}
+
+.name_participant {
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.name_participant a {
+    color: #ffffff;
 }
 
 
