@@ -63,21 +63,21 @@
 		margin-right: auto;
 	}
 
-	.container.\31 25\25 {
+	.container.\31 25\25 {	/* 125% */
 		width: 100%;
 		max-width: 87.5em;
 		min-width: 70em;
 	}
 
-	.container.\37 5\25 {
+	.container.\37 5\25 {	/* 75% */
 		width: 52.5em;
 	}
 
-	.container.\35 0\25 {
+	.container.\35 0\25 {	/* 50% */
 		width: 35em;
 	}
 
-	.container.\32 5\25 {
+	.container.\32 5\25 {	/* 25% */
 		width: 17.5em;
 	}
 
@@ -89,13 +89,13 @@
     }
 	@media screen and (max-width: 1680px) {
 
-		.container.\31 25\25 {
+		.container.\31 25\25 {	/* 125% */
 			width: 100%;
 			max-width: 87.5em;
 			min-width: 70em;
 		}
 
-		.container.\37 5\25 {
+		.container.\37 5\25 {	/* 75% */
 			width: 52.5em;
 		}
 
@@ -115,13 +115,13 @@
 
 	@media screen and (max-width: 1280px) {
 
-		.container.\31 25\25 {
+		.container.\31 25\25 {	/* 125% */
 			width: 100%;
 			max-width: 112.5%;
 			min-width: 90%;
 		}
 
-		.container.\37 5\25 {
+		.container.\37 5\25 {	/* 75% */
 			width: 67.5%;
 		}
 
@@ -141,13 +141,13 @@
 
 	@media screen and (max-width: 980px) {
 
-		.container.\31 25\25 {
+		.container.\31 25\25 {	/* 125% */
 			width: 100%;
 			max-width: 125%;
 			min-width: 100%;
 		}
 
-		.container.\37 5\25 {
+		.container.\37 5\25 {	/* 75% */
 			width: 75%;
 		}
 
@@ -167,13 +167,13 @@
 
 	@media screen and (max-width: 736px) {
 
-		.container.\31 25\25 {
+		.container.\31 25\25 {	/* 125% */
 			width: 100%;
 			max-width: 125%;
 			min-width: 100%;
 		}
 
-		.container.\37 5\25 {
+		.container.\37 5\25 {	/* 75% */
 			width: 75%;
 		}
 
@@ -193,13 +193,13 @@
 
 	@media screen and (max-width: 480px) {
 
-		.container.\31 25\25 {
+		.container.\31 25\25 {	/* 125% */
 			width: 100%;
 			max-width: 125%;
 			min-width: 100%;
 		}
 
-		.container.\37 5\25 {
+		.container.\37 5\25 {	/* 75% */
 			width: 75%;
 		}
 
@@ -623,7 +623,7 @@
 			margin-left: 0;
 		}
 
-		.\31 u\28xlarge\29, .\31 u\24\28xlarge\29 {
+		.\31 u\28xlarge\29, .\31 u\24\28xlarge\29 { /* 1u(xlarge), 1u$(xlarge) */
 			width: 8.3333333333%;
 			clear: none;
 			margin-left: 0;
