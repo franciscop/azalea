@@ -71,6 +71,11 @@
     margin-bottom: 25px;
 }
 
+.logosfooter a {
+    text-decoration: none;
+    border: none;
+}
+
 .rrssfooter{
     margin-top: -28px;
 }
@@ -199,30 +204,72 @@
 .sponsorshiptitle{
     background-color: #f28b32;
 }
+
 .sponsorshiptitle h2{
     text-align: center;
     margin-bottom: -17px;
     font-size: 3em;
     margin-top: -14px;
 }
+
 .sponsortext{
     background-color: #555;
     position: relative;
     float: left;
     width: 50%;
-    height: 318px;
+    height: 420px;
     text-align: justify;
 }
-.sponsortext p{
+
+/*.sponsortext p{
     margin-bottom: 20px;
     font-size: 1.6em;
-}
+}*/
 .sponsorlogos{
     background-color: white;
     position: relative;
     float: right;
     width: 50%;
     text-align: center;
+}
+
+.contactus {
+    background-color: #333;
+}
+
+.contactus h2{
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+}
+
+.contactus p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 50px 0 0 0;
+}
+
+.support{
+    text-align: center;
+    background-color: white;
+    padding: 1em;
+}
+
+.support h2{
+    color: #333;
+    text-align: center;
+    font-size: 3em;
+    margin: 1em 0;
+}
+
+.support a {
+    text-decoration: none;
+    border: none;
+}
+
+.sponsor {
+    width: 100%;
+    margin: 1em;
 }
 
 .type{
