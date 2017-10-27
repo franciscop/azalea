@@ -67,8 +67,7 @@
 .logosfooter{
     text-align: center;
     vertical-align: middle;
-    margin-left: 98px;
-    margin-bottom: 25px;
+    margin: 5% 0 25px 98px;
 }
 
 .logosfooter a {
@@ -109,7 +108,7 @@
 .eco{
     border-bottom: solid 1px rgba(255, 255, 255, 0.3);
     width: 255px;
-    margin-left: 437px;
+    margin: 0 auto;
 }
 
 .heart{
