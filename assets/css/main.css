@@ -3752,12 +3752,12 @@
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #272833;
+				background: white; /* Cambiat #272833; */
 				box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
 			}
 
 				#titleBar .title {
-					color: #ffffff;
+					color: rgba(218, 138, 60, 1); /* Cambiat #ffffff; */
 					display: block;
 					font-weight: 300;
 					height: 44px;
@@ -3791,8 +3791,8 @@
 					}
 
 					#titleBar .toggle:before {
-						background: #da8a3c;
-						color: rgba(255, 255, 255, 0.5);
+						background: white; /* Cambiat  #da8a3c; */
+						color: rgba(218, 138, 60, 1); /* Cambiat rgba(255, 255, 255, 0.5); */
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;
