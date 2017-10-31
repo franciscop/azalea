@@ -3012,12 +3012,14 @@
 		}
 
 		.spotlight.left .content {
-			border-right-width: 0.35em;
+			/* Llevem separació entre panel i foto */
+			/* border-right-width: 0.35em; */
 			left: 0;
 		}
 
 		.spotlight.right .content {
-			border-left-width: 0.35em;
+			/* Llevem separació entre panel i foto */
+			/* border-left-width: 0.35em: */;
 			right: 0;
 		}
 
@@ -3344,7 +3346,8 @@
 	#banner {
 		background-attachment: fixed;
 		background-color: #272833;
-		background-position: center center;
+		/* Intentant centrar la foto */
+		background-position: -290px center !important;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
 		min-height: 100vh;
@@ -3492,6 +3495,7 @@
 			.spotlight.bottom .content {
 				padding: 3.825em 0 2.95em 0;
 			}
+
 
 			.spotlight.left .content, .spotlight.right .content {
 				padding: 4.5em 2.5em;

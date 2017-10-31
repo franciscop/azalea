@@ -24,11 +24,11 @@
 }
 
 #two .sde{
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 #three .team{
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .sdupv_text{
@@ -187,7 +187,9 @@
 }
 
 .name_participant a {
-    color: #ffffff;
+    text-decoration: none;
+    border: none;
+     color: #ffffff;
 }
 
 
