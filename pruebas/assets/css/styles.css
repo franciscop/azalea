@@ -3,7 +3,11 @@
 /  --------------------------------------------------------------------*/
 
 .banner_index {
-    background-image: url("../../images/portada_home.png");
+    background-image: url("../../images/portada_hojas.png");
+}
+
+.banner_index .content{
+    vertical-align: bottom!important;
 }
 
 #nav .container{
@@ -24,11 +28,15 @@
 }
 
 #two .sde{
-    background-color: #333;
+    background-color: rgba(70, 70, 70, 0.33);
 }
 
 #three .team{
-    background-color: #333;
+    background-color: rgba(70, 70, 70, 0.33);
+}
+
+.team p{
+    text-align: justify;
 }
 
 .sdupv_text{
@@ -61,14 +69,16 @@
 }
 
 #footer.foot{
-    background-color: #555;
+    background-image: url(../../images/portada_hojas.png)!important;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.9;
 }
 
 .logosfooter{
     text-align: center;
     vertical-align: middle;
-    margin-left: 98px;
-    margin-bottom: 25px;
+    margin: 5% 0 25px 98px;
 }
 
 .logosfooter a {
@@ -109,7 +119,7 @@
 .eco{
     border-bottom: solid 1px rgba(255, 255, 255, 0.3);
     width: 255px;
-    margin-left: 437px;
+    margin: 0 auto;
 }
 
 .heart{
@@ -126,6 +136,9 @@
 /  TEAM.HTML                                                            /
 /  --------------------------------------------------------------------*/
 
+.banner_team {
+    background-image: url("../../images/pic09.jpg");
+}
 
 .azaleawhite{
     width: 155px;
@@ -143,6 +156,9 @@
 .teamtext{
     text-align: center;
     background-color: #da8a3c;
+    background-image: url(../../images/azalea_banner.png);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .subsistema{
@@ -188,7 +204,9 @@
 }
 
 .name_participant a {
-    color: #ffffff;
+    text-decoration: none;
+    border: none;
+     color: #ffffff;
 }
 
 
@@ -198,8 +216,8 @@
 
 
 .banner_sponsorship {
-    background-image: url("../../images/portada_gente.png");
-}    
+    background-image: url("../../images/azalea_banner.png");
+}
 
 .sponsorshiptitle{
     background-color: #f28b32;

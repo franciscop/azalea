@@ -3012,12 +3012,14 @@
 		}
 
 		.spotlight.left .content {
-			border-right-width: 0.35em;
+			/* Llevem separació entre panel i foto */
+			/* border-right-width: 0.35em; */
 			left: 0;
 		}
 
 		.spotlight.right .content {
-			border-left-width: 0.35em;
+			/* Llevem separació entre panel i foto */
+			/* border-left-width: 0.35em: */;
 			right: 0;
 		}
 
@@ -3493,6 +3495,7 @@
 				padding: 3.825em 0 2.95em 0;
 			}
 
+
 			.spotlight.left .content, .spotlight.right .content {
 				padding: 4.5em 2.5em;
 				width: 25em;
@@ -3748,12 +3751,12 @@
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #272833;
+				background: white; /* Cambiat #272833; */
 				box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
 			}
 
 				#titleBar .title {
-					color: #ffffff;
+					color: rgba(218, 138, 60, 1); /* Cambiat #ffffff; */
 					display: block;
 					font-weight: 300;
 					height: 44px;
@@ -3787,8 +3790,8 @@
 					}
 
 					#titleBar .toggle:before {
-						background: #da8a3c;
-						color: rgba(255, 255, 255, 0.5);
+						background: white; /* Cambiat  #da8a3c; */
+						color: rgba(218, 138, 60, 1); /* Cambiat rgba(255, 255, 255, 0.5); */
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;
