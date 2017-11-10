@@ -57,10 +57,11 @@
 		// Off-Canvas Navigation.
 
 			// Title Bar.
+			// Canviat '<span class="title">' + $('#logo').html() + '</span>' +
 				$(
 					'<div id="titleBar">' +
 						'<a href="#navPanel" class="toggle"></a>' +
-						'<span class="title">' + $('#logo').html() + '</span>' +
+						'<span class="title">Azalea</span>' +
 					'</div>'
 				)
 					.appendTo($body);
