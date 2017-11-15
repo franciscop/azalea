@@ -6,8 +6,7 @@ span.label.ocultar {
 }
 
 .banner_index {
-		background-image: url("../../images/Optimized-portada_hojas.png");
-		background-position: 	none;
+		background: url("../../images/Optimized-portada_hojas.png");
 }
 
 .banner_index .content{
@@ -211,7 +210,9 @@ span.label.ocultar {
 
 
 .banner_sponsorship {
-		background-image: url("../../images/azalea_banner_min.jpg");
+		background: url("../../images/sponsorship/banner_sponsor.png") right bottom no-repeat,
+					url("../../images/azalea_banner_min.jpg");
+						 
 }
 
 .banner_sponsorship .content{
@@ -219,6 +220,9 @@ span.label.ocultar {
 		text-align: right;  
 }
 
+.content {
+	
+}
 .sponsorshiptitle{
 		background-color: #f28b32;
 }
