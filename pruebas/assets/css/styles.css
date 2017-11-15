@@ -315,13 +315,32 @@ span.label.ocultar {
 }
 
 .name{
-		float: right;
+		float: left;
 		color: black;
 		text-align: left;
+}
+
+.looking {
+	color: black;
+	text-align: justify;
+	float: left;
+	margin: 0 10% 0 0;
 }
 
 .footprint{
 		float: right;
 		text-align: left;
 		color: black;
+}
+
+.imglogo {
+	display: block;
+	margin-left: 25%;
+	width: 200px;
+
+}
+
+.become {
+	float: left;
+	margin: 5% 0;
 }
