@@ -1,11 +1,4 @@
 /* ---------------------------------------------------------------------/
-/  COMUN                                                          /
-/  --------------------------------------------------------------------*/
-.cabecera {
-	display: none;
-}
-
-/* ---------------------------------------------------------------------/
 /  INDEX.HTML                                                           /
 /  --------------------------------------------------------------------*/
 span.label.ocultar {
@@ -14,7 +7,6 @@ span.label.ocultar {
 
 .banner_index {
 		background: url("../../images/Optimized-portada_hojas.png");
-					/*url("../../images/azalea_icon.png") ;*/
 }
 
 .banner_index .content{
@@ -30,12 +22,8 @@ span.label.ocultar {
 		text-align: center;
 }*/
 
-.azalea_logo_barra {
+.azalealogo{
 		text-align: center;
-}
-
-.azalea_logo_centro {
-	margin-right: 15%;
 }
 
 #nav .rrss{
@@ -143,7 +131,7 @@ span.label.ocultar {
 /  --------------------------------------------------------------------*/
 
 .banner_team {
-		background-image: url("../../images/team/pic09-min.jpg");
+		background-image: url("../../images/pic09.jpg");
 }
 
 .azaleawhite{
@@ -222,70 +210,71 @@ span.label.ocultar {
 
 
 .banner_sponsorship {
-	background:	url("../../images/azalea_banner_min.jpg");
+		background:
+					url("../../images/azalea_banner_min.jpg");
 						 
 }
 
-.banner_sponsorship .content{
-	vertical-align: bottom!important;
-	text-align: right;  
-	background: url("../../images/sponsorship/banner_sponsor.png") right bottom no-repeat;
-	margin: 0 100px 100px 0;
-}
 
 .content {
-
-}
-.sponsorshiptitle {
-	background-color: #f28b32;
+	background: url("../../images/sponsorship/banner_sponsor.png") right bottom no-repeat;
 }
 
-.sponsorshiptitle h2 {
-	text-align: center;
-	margin-bottom: -17px;
-	font-size: 3em;
-	margin-top: -14px;
+.banner_sponsorship .content{
+		vertical-align: bottom!important;
+		text-align: right;  
 }
 
-.sponsortext {
-	background-color: #e8e8e8;
-	color: black;
-	position: relative;
-	float: right;
-	width: 50%;
-	height: 420px;
-	text-align: justify;
+.sponsorshiptitle{
+		background-color: #f28b32;
+}
+
+.sponsorshiptitle h2{
+		text-align: center;
+		margin-bottom: -17px;
+		font-size: 3em;
+		margin-top: -14px;
+}
+
+.sponsortext{
+		background-color: #e8e8e8;
+		color: black;
+		position: relative;
+		float: right;
+		width: 50%;
+		height: 420px;
+		text-align: justify;
 }
 
 /*.sponsortext p{
 		margin-bottom: 20px;
 		font-size: 1.6em;
 }*/
-.sponsorlogos {
-	background-color: #e8e8e8;
-	position: relative;
-	float: left;
-	width: 100%;
-	text-align: center;
+.sponsorlogos{
+		background-color: #e8e8e8;
+		position: relative;
+		float: left;
+		width: 100%;
+		text-align: center;
 }
 
 .contactus {
-	background-color: #333;
+		background-color: #333;
 }
 
-.contactus h2 {
-	text-align: center;
-	font-size: 3em;
-	margin: 0;
+.contactus h2{
+		text-align: center;
+		font-size: 3em;
+		margin: 0;
 }
 
 .contactus p {
-	text-align: center;
-	font-size: 1.5rem;
-	margin: 50px 0 0 0;
+		text-align: center;
+		font-size: 1.5rem;
+		margin: 50px 0 0 0;
 }
 
-.support {
+.support{
 		text-align: center;
 		background-color: white;
 		padding: 1em;
@@ -332,10 +321,9 @@ span.label.ocultar {
 }
 
 .name{
-	float: left;
-	color: black;
-	text-align: left;
-	font-weight: 600;
+		float: left;
+		color: black;
+		text-align: left;
 }
 
 .looking {
@@ -343,7 +331,6 @@ span.label.ocultar {
 	text-align: justify;
 	float: left;
 	margin: 0 10% 0 0;
-	font-weight: bold;
 }
 
 .footprint{
@@ -362,94 +349,4 @@ span.label.ocultar {
 .become {
 	float: left;
 	margin: 5% 0;
-	font-size: 1.4rem;
-	letter-spacing: 1px;
 }
-
-
-/* Container buit i */
-	@media screen and (max-width: 1680px) {
-
-		.vacio {
-			width: 70em;
-		}
-
-		.banner_sponsorship .content{
-			vertical-align: bottom!important;
-			text-align: right;  
-			background: url("../../images/sponsorship/banner_sponsor.png") right bottom no-repeat;
-			margin: 0 100px 100px 0;
-		}
-	}
-
-	@media screen and (max-width: 1280px) {
-
-		
-		.vacio {
-			width: 60em;
-		}
-
-		.banner_sponsorship .content{
-			vertical-align: bottom!important;
-			text-align: right;  
-			background: url("../../images/sponsorship/banner_sponsor.png") right bottom no-repeat;
-			margin: 0 100px 100px 0;
-		}
-
-	}
-
-	@media screen and (max-width: 980px) {
-
-		
-		.vacio {
-			width: 40em !important;
-		}
-
-		.banner_sponsorship .content{
-			vertical-align: bottom!important;
-			text-align: right;  
-			background: url("../../images/sponsorship/banner_sponsor.png") right bottom no-repeat;
-			margin: 0 100px 100px 0;
-		}
-
-	}
-
-	@media screen and (max-width: 736px) {
-
-		
-		.vacio {
-			width: 35em !important;
-		}
-
-		.banner_sponsorship .content{
-			vertical-align: bottom!important;
-			text-align: right;  
-			background: url("../../images/sponsorship/banner_sponsor.png") right bottom no-repeat;
-			margin: 2em 0;
-		}
-
-	}
-
-	@media screen and (max-width: 480px) {
-
-		p {
-			text-align: justify;
-		}
-	
-		.vacio {
-			/*width: 100% !important;*/
-		}
-
-		.banner_sponsorship .content{
-			vertical-align: bottom!important;
-			text-align: right;  
-			background: url("../../images/sponsorship/banner_sponsor.png") right bottom no-repeat;
-			margin: 0 10px 10px 0;
-    		background-size: 20rem;
-		}
-
-		.sponsormobil {
-			margin-top: 20px;
-		}
-
-	}
