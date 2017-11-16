@@ -1,4 +1,11 @@
 /* ---------------------------------------------------------------------/
+/  COMUN                                                          /
+/  --------------------------------------------------------------------*/
+.cabecera {
+	display: none;
+}
+
+/* ---------------------------------------------------------------------/
 /  INDEX.HTML                                                           /
 /  --------------------------------------------------------------------*/
 span.label.ocultar {
@@ -7,6 +14,7 @@ span.label.ocultar {
 
 .banner_index {
 		background: url("../../images/Optimized-portada_hojas.png");
+					/*url("../../images/azalea_icon.png") ;*/
 }
 
 .banner_index .content{
@@ -22,8 +30,12 @@ span.label.ocultar {
 		text-align: center;
 }*/
 
-.azalealogo{
+.azalea_logo_barra {
 		text-align: center;
+}
+
+.azalea_logo_centro {
+	margin-right: 15%;
 }
 
 #nav .rrss{
@@ -131,7 +143,7 @@ span.label.ocultar {
 /  --------------------------------------------------------------------*/
 
 .banner_team {
-		background-image: url("../../images/pic09.jpg");
+		background-image: url("../../images/team/pic09-min.jpg");
 }
 
 .azaleawhite{
@@ -198,9 +210,9 @@ span.label.ocultar {
 }
 
 .name_participant a {
-		text-decoration: none;
-		border: none;
-		 color: #ffffff;
+	text-decoration: none;
+	border: none;
+	color: #ffffff;
 }
 
 
@@ -210,18 +222,19 @@ span.label.ocultar {
 
 
 .banner_sponsorship {
-		background: url("../../images/sponsorship/banner_sponsor.png") right bottom no-repeat,
-					url("../../images/azalea_banner_min.jpg");
+	background:	url("../../images/azalea_banner_min.jpg");
 						 
 }
 
 .banner_sponsorship .content{
-		vertical-align: bottom!important;
-		text-align: right;  
+	vertical-align: bottom!important;
+	text-align: right;  
+	background: url("../../images/sponsorship/banner_sponsor.png") right bottom no-repeat;
+	margin: 0 100px 100px 0;
 }
 
 .content {
-	
+
 }
 .sponsorshiptitle{
 		background-color: #f28b32;
@@ -319,9 +332,10 @@ span.label.ocultar {
 }
 
 .name{
-		float: left;
-		color: black;
-		text-align: left;
+	float: left;
+	color: black;
+	text-align: left;
+	font-weight: 600;
 }
 
 .looking {
@@ -329,6 +343,7 @@ span.label.ocultar {
 	text-align: justify;
 	float: left;
 	margin: 0 10% 0 0;
+	font-weight: bold;
 }
 
 .footprint{
@@ -347,4 +362,6 @@ span.label.ocultar {
 .become {
 	float: left;
 	margin: 5% 0;
+	font-size: 1.4rem;
+	letter-spacing: 1px;
 }
