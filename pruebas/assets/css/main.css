@@ -2790,7 +2790,7 @@
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #e76278;
+				background-color: #535353; /* Canviat */
 			}
 
 			input[type="submit"].special:active,

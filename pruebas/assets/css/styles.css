@@ -13,7 +13,7 @@ span.label.ocultar {
 }
 
 .banner_index {
-		background: url("../../images/Optimized-portada_hojas.png");
+		background: url("../../images/index/banner_hojas_pr.jpg");
 					/*url("../../images/azalea_icon.png") ;*/
 }
 
@@ -31,11 +31,11 @@ span.label.ocultar {
 }*/
 
 .azalea_logo_barra {
-		text-align: center;
+	text-align: center;
 }
 
 .azalea_logo_centro {
-	margin-right: 15%;
+	margin-right: 18%;
 }
 
 #nav .rrss{
@@ -201,7 +201,7 @@ span.label.ocultar {
 		-webkit-border-radius: 50%;
 		border-radius: 50%;
 		display: block;
-		background-image: url("images/linkedin.png");
+		/*background: url("../../images/linkedin.png") no-repeat;*/
 }
 
 .name_participant {
@@ -305,7 +305,7 @@ span.label.ocultar {
 
 .sponsor {
 		width: 100%;
-		margin: 1em;
+		margin: 1em 0;
 }
 
 .imglogo{
@@ -396,6 +396,10 @@ span.label.ocultar {
 			margin: 0 100px 100px 0;
 		}
 
+		.azalea_logo_centro {
+				margin-right: 15%;
+			}
+
 	}
 
 	@media screen and (max-width: 980px) {
@@ -410,6 +414,10 @@ span.label.ocultar {
 			text-align: right;  
 			background: url("../../images/sponsorship/banner_sponsor.png") right bottom no-repeat;
 			margin: 0 100px 100px 0;
+		}
+
+		.azalea_logo_centro {
+			margin-right: 1%;
 		}
 
 	}
@@ -428,6 +436,10 @@ span.label.ocultar {
 			margin: 2em 0;
 		}
 
+		.azalea_logo_centro {
+			margin: 0;
+		}
+
 	}
 
 	@media screen and (max-width: 480px) {
@@ -437,7 +449,7 @@ span.label.ocultar {
 		}
 	
 		.vacio {
-			/*width: 100% !important;*/
+			width: 20em !important;
 		}
 
 		.banner_sponsorship .content{
@@ -452,4 +464,52 @@ span.label.ocultar {
 			margin-top: 20px;
 		}
 
+	}
+
+	@media screen and (max-width: 320px) {
+
+		p {
+			text-align: justify;
+		}
+	
+		.vacio {
+			width: 15em !important;
+		}
+
+		.banner_sponsorship .content{
+			vertical-align: bottom!important;
+			text-align: right;  
+			background: url("../../images/sponsorship/banner_sponsor.png") right bottom no-repeat;
+			margin: 0 10px 10px 0;
+    		background-size: 15rem;
+		}
+
+		.sponsormobil {
+			margin-top: 20px;
+		}
+
+		#banner .content {
+			margin-right: 20px;
+		}
+
+		.imglogo {
+			margin: 0 auto;
+		}
+
+		.logosfooter {
+			margin: 20px;
+		}
+
+		.azalea_logo_centro {
+			margin-left: -40px;
+		}
+
+		h2.name, p.footprint {
+			color: white !important;
+			text-align: justify;
+		}
+
+		p.place {
+			margin-top: 10px;
+		}
 	}
