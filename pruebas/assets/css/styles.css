@@ -14,6 +14,14 @@
 	color: black !important;
 }
 
+h3 {
+	padding: 15px;
+}
+
+h4 {
+	text-align: center;
+}
+
 /* ---------------------------------------------------------------------/
 /  INDEX.HTML                                                           /
 /  --------------------------------------------------------------------*/
@@ -143,7 +151,17 @@ span.label.ocultar {
 	text-align: center;
 }
 
+.sde_logo {
+	width: 200px !important;
+}
 
+section#banner.content {
+	margin: 0;
+}
+
+div.content.sde {
+	padding: 1em !important;
+}
 
 /* ---------------------------------------------------------------------/
 /  TEAM.HTML                                                            /
@@ -343,9 +361,9 @@ p.name_participant, p.ocupation {
 	margin: 0 10%;
 }
 
-.name{
+.name {
 	float: left;
-	color: black;
+	color: white;
 	text-align: left;
 	font-weight: 600;
 }
@@ -361,7 +379,7 @@ p.name_participant, p.ocupation {
 .footprint{
 		float: right;
 		text-align: left;
-		color: black;
+		color: white;
 }
 
 .imglogo {
@@ -512,12 +530,15 @@ input.special.become {
 		}
 
 		h2.name, p.footprint {
-		    color: white;
 		    text-align: justify;
 		}
 
 		.logosfooter {
 			margin-left: 0;
+		}
+
+		.azalea_logo_centro {
+			width: 300px;
 		}
 
 	}
@@ -557,11 +578,10 @@ input.special.become {
 		}
 
 		.azalea_logo_centro {
-			margin-left: -40px;
+			width: 300px;
 		}
 
 		h2.name, p.footprint {
-			color: white;
 			text-align: justify;
 		}
 
