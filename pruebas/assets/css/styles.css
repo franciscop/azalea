@@ -5,6 +5,15 @@
 	display: none;
 }
 
+.rest {
+	padding-top: 10px;
+	padding-left: 0;
+}
+
+.change {
+	color: black !important;
+}
+
 /* ---------------------------------------------------------------------/
 /  INDEX.HTML                                                           /
 /  --------------------------------------------------------------------*/
@@ -66,9 +75,9 @@ span.label.ocultar {
 		width: 100px;
 }
 
-.place{
+/*.place{
 		margin-top: -38px;
-}
+}*/
 
 .sdetext{
 		text-align: justify;
@@ -81,11 +90,7 @@ span.label.ocultar {
 		opacity: 0.9;
 }
 
-.logosfooter{
-		text-align: center;
-		vertical-align: middle;
-		margin: 5% 0 25px 98px;
-}
+
 
 .logosfooter a {
 		text-decoration: none;
@@ -126,14 +131,16 @@ span.label.ocultar {
 		border-bottom: solid 1px rgba(255, 255, 255, 0.3);
 		width: 255px;
 		margin: 0 auto;
+		text-align: center;
 }
 
-.heart{
-		margin-left: 5px;
+.heart {
+	margin-left: 5px;
 }
 
-.journey p{
-		margin-top: 22px;
+.journey p {
+	margin-top: 22px;
+	text-align: center;
 }
 
 
@@ -168,7 +175,8 @@ span.label.ocultar {
 }
 
 .subsistema{
-		color: #da8a3c;
+	color: #da8a3c;
+	padding-top: 1rem;
 }
 
 .titulo{
@@ -213,6 +221,10 @@ span.label.ocultar {
 	text-decoration: none;
 	border: none;
 	color: #ffffff;
+}
+
+p.name_participant, p.ocupation {
+	text-align: center;
 }
 
 
@@ -342,7 +354,7 @@ span.label.ocultar {
 	color: black;
 	text-align: justify;
 	float: left;
-	margin: 0 10% 0 0;
+	/*margin: 0 10% 0 0;*/
 	font-weight: bold;
 }
 
@@ -364,8 +376,12 @@ span.label.ocultar {
 	margin: 5% 0;
 	font-size: 1.4rem;
 	letter-spacing: 1px;
+	padding: 0 5%;
 }
 
+input.special.become {
+	padding: 0 5%;
+}
 
 /* Container buit i */
 	@media screen and (max-width: 1680px) {
@@ -379,6 +395,10 @@ span.label.ocultar {
 			text-align: right;  
 			background: url("../../images/sponsorship/banner_sponsor.png") right bottom no-repeat;
 			margin: 0 100px 100px 0;
+		}
+
+		.logosfooter {
+			margin-left: calc((100%/5) - 15px);
 		}
 	}
 
@@ -397,8 +417,12 @@ span.label.ocultar {
 		}
 
 		.azalea_logo_centro {
-				margin-right: 15%;
-			}
+			margin-right: 15%;
+		}
+
+		.logosfooter {
+			margin-left: calc((100%/5) - 15px);
+		}
 
 	}
 
@@ -420,6 +444,20 @@ span.label.ocultar {
 			margin-right: 1%;
 		}
 
+		.logosfooter {
+			margin-left: 0;
+		}
+
+		.imglogo {
+			margin: 0 auto !important;
+		}
+
+		h2.name {
+			margin-top: 3rem;
+		}
+
+
+
 	}
 
 	@media screen and (max-width: 736px) {
@@ -439,6 +477,15 @@ span.label.ocultar {
 		.azalea_logo_centro {
 			margin: 0;
 		}
+
+		.logosfooter {
+			margin-left: 0;
+		}
+
+		h2.name {
+			margin-top: 3rem;
+		}
+
 
 	}
 
@@ -462,6 +509,15 @@ span.label.ocultar {
 
 		.sponsormobil {
 			margin-top: 20px;
+		}
+
+		h2.name, p.footprint {
+		    color: white;
+		    text-align: justify;
+		}
+
+		.logosfooter {
+			margin-left: 0;
 		}
 
 	}
@@ -505,11 +561,23 @@ span.label.ocultar {
 		}
 
 		h2.name, p.footprint {
-			color: white !important;
+			color: white;
 			text-align: justify;
 		}
 
 		p.place {
 			margin-top: 10px;
+			text-align: center;
 		}
+
+		.tiny {
+			padding: 5px 0 !important;
+		}
+
+		.textteam h2 {
+			font-size: 2em;
+			margin-bottom: 10px;
+		}
+		
 	}
+
